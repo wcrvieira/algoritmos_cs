@@ -58,6 +58,10 @@ obj/Debug/net10.0/
  .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
  posto.AssemblyInfo.cs
  posto.GlobalUsings.g.cs
+posto/obj/Debug/net10.0/
+ .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+ posto.AssemblyInfo.cs
+ posto.GlobalUsings.g.cs
 Program.cs
 
 [metadataReferences]
