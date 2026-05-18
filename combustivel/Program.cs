@@ -5,14 +5,15 @@ int opcao = 0;
 int alcool = 0, gasolina = 0, diesel = 0;
 
 Console.WriteLine("Menu de combustíveis");
-    Console.WriteLine("Digite 1 para Alcool" + "\n" +
-                      "Digite 2 para Gasolina" + "\n" +
-                      "Digite 3 para Diesel" + "\n" +
-                      "Digite 4 para encerrar o sistema!");
+Console.WriteLine("Digite 1 para Alcool" + "\n" +
+                  "Digite 2 para Gasolina" + "\n" +
+                  "Digite 3 para Diesel" + "\n" +
+                  "Digite 4 para encerrar o sistema!");
 while (opcao != 4)
-{  Console.Write("Entre com sua opção: ");                     
+{
+    Console.Write("Entre com sua opção: ");
 
-opcao = Convert.ToInt16(Console.ReadLine());
+    opcao = Convert.ToInt16(Console.ReadLine());
     switch (opcao)
     {
         case 1: alcool++; break; // alcool =+1 ou alcool = alcool + 1
@@ -23,7 +24,7 @@ opcao = Convert.ToInt16(Console.ReadLine());
                                   "Total de veículos com Alcool: " + alcool + "\n" +
                                   "Total de veículos com Gasolina: " + gasolina + "\n" +
                                   "Total de veículos com Diesel: " + diesel);
-            break;
+        break;
         default: Console.WriteLine("Código inválido"); break;
     }
 }
