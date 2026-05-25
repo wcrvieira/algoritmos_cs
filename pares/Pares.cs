@@ -9,11 +9,13 @@ valor = Convert.ToInt16(Console.ReadLine());
 
 if (valor <= 1000)
 {
-    while (x <= valor)
-    {
-        Console.WriteLine($"Valor: {x}");
-        x+= 2;
-    }
+    while (x <= valor) {
+        if (x % 2 == 0)
+            {
+                Console.WriteLine($"Valor: {x}");                
+            }
+            x++;
+        }
 }
 else
 {
