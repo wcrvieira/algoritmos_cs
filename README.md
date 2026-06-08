@@ -2,7 +2,7 @@ Neste projeto, o objetivo é explorar a aplicação das estruturas condicionais 
 
 Além dos exercícios resolvidos nas aulas, vocês deverão escolher 5 opções de algoritmos, abaixo, para resolver e subir todos eles em seu repositório no GitHub e postar o link nesta tarefa.
 
-**Exercícios propostos
+*Exercícios propostos
 - Verificador de Paridade: Receba um número e diga se ele é par ou ímpar usando o operador de resto (%).
 - Calculadora de Média Escolar: Peça quatro notas, calcule a média e diga se o aluno está "Aprovado" (média $\ge 7$), "Recuperação" (entre 5 e 6.9) ou "Reprovado".
 - Maior de Idade: Pergunte o ano de nascimento e informe se a pessoa já pode tirar a CNH ou se ainda precisa esperar.
@@ -27,10 +27,10 @@ Conversor de Moedas Repetitivo: Um programa que converte Real para Dólar quanta
 - Analisador de Clima: O usuário insere a temperatura de vários dias. O programa para quando receber uma temperatura impossível (ex: -500) e mostra a maior e a menor temperatura registradas.
 - Controle de Estoque: Comece com 10 produtos. O while pergunta se o usuário quer "Comprar" ou "Vender". Atualize o estoque e não deixe vender mais do que o que está disponível.
 
-**Ferramentas:
+*Ferramentas:
 - Microsoft Visual Studio Code, disponível em https://code.visualstudio.com/Download.
 
-**Repositório GitHub para estudos:  https://github.com/wcrvieira/algoritmos_cs 
+*Repositório GitHub para estudos:  https://github.com/wcrvieira/algoritmos_cs 
 
 Após a implementação dos processos, suba os arquivos do projeto em seu repositório GitHub e, poste o link nesta atividade até às 20h00 do próximo dia 11/06/2026.
 
